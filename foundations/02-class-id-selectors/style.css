@@ -4,22 +4,17 @@
     font-family: Verdana, 'DejaVu Sans', sans-serif;
 }
 
-.blue {
-    color: rgb(71, 71, 244)
-}
-
-.green {
-    background-color: rgb(83, 184, 83);
-}
-
-.large {
-    font-size: 36px;
-}
-
-.medium {
+.medium-font-size {
     font-size: 24px;
 }
 
-#bold {
+#two {
+    color: rgb(71, 71, 244);
+    font-size: 36px;
+}
+
+#four {
+    background-color: rgb(83, 184, 83);
+    font-size: 24px;
     font-weight: bold;
 }
