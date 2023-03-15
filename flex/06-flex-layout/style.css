@@ -53,6 +53,11 @@ input {
   border-radius: 8px;
 }
 
+.footer > ul > li > a:hover {
+  background-color: rgb(205, 205, 205);
+  border-radius: 8px;
+}
+
 .left-links, .right-links {
   display: flex;
   gap: 1rem
