@@ -7,6 +7,12 @@ body {
   font-family: Roboto, sans-serif;
 }
 
+ul {
+  margin: 0px;
+  list-style-type: none;
+  padding: 0px;
+}
+
 img {
   width: 600px;
 }
