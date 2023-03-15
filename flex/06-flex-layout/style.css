@@ -39,7 +39,7 @@ input {
   margin-bottom: 16px;
 }
 
-.header {
+.header, .footer {
   padding: 1rem;
   display: flex;
   justify-content: space-between;
@@ -48,4 +48,8 @@ input {
 .left-links, .right-links {
   display: flex;
   gap: 1rem
+}
+
+.footer {
+  background-color: rgb(243, 243, 243);
 }
