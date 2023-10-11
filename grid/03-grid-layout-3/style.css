@@ -7,7 +7,7 @@
   text-align: center;
   display: grid;
   gap: 4px;
-  grid-template-columns: 1fr 4fr;
+  grid-template-columns: minmax(200px, 1fr) 4fr;
   grid-template-rows: auto auto 1fr auto;
   grid-template-areas:
     "header header"
@@ -52,6 +52,11 @@
   row-gap: 50px;
 }
 
+.sidebar > * {
+  display: grid;
+  place-items: center;
+}
+
 .sidebar .photo {
   background-color: white;
   color: black;
@@ -65,8 +70,6 @@
   color: black;
   font-size: 16px;
   font-weight: normal;
-  display: grid;
-  place-items: center;
 }
 
 .nav {
