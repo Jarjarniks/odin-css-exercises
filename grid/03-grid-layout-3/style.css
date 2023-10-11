@@ -74,6 +74,13 @@
   grid-area: nav;
 }
 
+.nav ul {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+  list-style: none;
+}
+
 .nav ul li {
   font-size: 16px;
   text-transform: uppercase;
