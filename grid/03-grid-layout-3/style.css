@@ -8,9 +8,10 @@
   display: grid;
   gap: 5px;
   grid-template-columns: 1fr 4fr;
-  grid-template-rows: 100px 1fr auto;
+  grid-template-rows: 100px auto 1fr auto;
   grid-template-areas:
     "header header"
+    "sidebar nav"
     "sidebar main"
     "footer footer";
 }
@@ -25,6 +26,7 @@
 
 .header {
   background-color: #393f4d;
+  grid-area: header;
 }
 
 .menu ul,
@@ -34,6 +36,7 @@
 
 .sidebar {
   background-color: #ff7755;
+  grid-area: sidebar;
 }
 
 .sidebar .photo {
@@ -53,6 +56,7 @@
 
 .nav {
   background-color: #ff7755;
+  grid-area: nav;
 }
 
 .nav ul li {
@@ -62,6 +66,7 @@
 
 .article {
   background-color: #bccbde;
+  grid-area: main;
 }
 
 .article p {
